@@ -1,0 +1,43 @@
+ASHISH
+TaskNotification System.InvalidOperationException: The result of a query cannot be enumerated more than once.
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetDbEnumerator()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 427
+TaskNotification System.InvalidOperationException: The result of a query cannot be enumerated more than once.
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetDbEnumerator()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 446
+TaskNotification System.InvalidOperationException: The result of a query cannot be enumerated more than once.
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetDbEnumerator()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 446
+TaskNotification System.InvalidOperationException: The result of a query cannot be enumerated more than once.
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetDbEnumerator()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 446
+TaskNotification System.FormatException: Input string was not in a correct format.
+   at System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   at System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   at System.TimeSpan.ToString(String format)
+   at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 467
+TaskNotification System.FormatException: Input string was not in a correct format.
+   at System.Globalization.TimeSpanFormat.FormatCustomized(TimeSpan value, String format, DateTimeFormatInfo dtfi)
+   at System.Globalization.TimeSpanFormat.Format(TimeSpan value, String format, IFormatProvider formatProvider)
+   at System.TimeSpan.ToString(String format)
+   at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 467
