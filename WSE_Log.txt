@@ -8,7 +8,7 @@ TaskNotification System.InvalidOperationException: The result of a query cannot 
    at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
    at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
    at WSEService.Service1.AttendanceNotification(Int16 NotificationTypeID) in d:\SVN\Projects\WSE\Application\WindowsService\WSEService\Service1.cs:line 427
-111111111111111111TaskNotification System.InvalidOperationException: The result of a query cannot be enumerated more than once.
+TaskNotification System.InvalidOperationException: The result of a query cannot be enumerated more than once.
    at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
    at System.Data.Entity.Core.Objects.ObjectResult`1.GetDbEnumerator()
    at System.Data.Entity.Core.Objects.ObjectResult`1.GetEnumerator()
